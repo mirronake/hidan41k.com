@@ -2,6 +2,10 @@ section {
     font-family: 'Raleway', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 html::-webkit-scrollbar {
     display: none;
 }
@@ -29,4 +33,30 @@ body {
     100% {
         background-position: 0% 50%;
     }
+}
+
+img {
+    border-radius: 15px;
+}
+
+.map {
+    background-color: #55555550;
+    border-radius: 15px;
+    margin: 50;
+}
+
+.play {
+    margin-top: 5;
+}
+
+#map1:hover {
+    transition: 0.3s;
+    content: url('https://assets.fortnitecreativehq.com/wp-content/uploads/2022/11/23022814/Fortnite-Screenshot-2022.11.23-04.22.41.86.jpg');
+    transform: translateY(-5px);
+}
+
+#map2:hover {
+    content: url('https://assets.fortnitecreativehq.com/wp-content/uploads/2022/11/23022935/Fortnite-Screenshot-2022.11.23-04.23.40.82.jpg');
+    transition: 0.3s;
+    transform: translateY(-5px);
 }
