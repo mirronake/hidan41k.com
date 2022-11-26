@@ -24,10 +24,10 @@ body {
 }
 img {
     border-radius: 10px;
-    margin-bottom: 5;
+    margin-bottom: 5px;
 }
 .map {
     background-color: #4e4e4e3d;
     border-radius: 10px;
-    margin: 5;
+    margin: 5px;
 }
