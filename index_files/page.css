@@ -1,5 +1,5 @@
 section {
-    font-family: 'Raleway', sans-serif;
+	font-family: Burbank Big Rg Bk, sans-serif;
 }
 html {
     text-transform: uppercase;
@@ -12,9 +12,9 @@ html::-webkit-scrollbar {
     margin: 0px 0px 10px 0px;
 }
 body {
-    background: linear-gradient(40deg, #12c2e9, #c471ed, #f64f59);
+    background: linear-gradient(40deg, #dfa0ff, #008cff);
     background-size: 500% 500%;
-    animation: gradient 10s ease infinite;
+    animation: gradient 5s ease infinite;
     height: auto;
 }
 @keyframes gradient {
@@ -30,4 +30,19 @@ img {
     background-color: #4e4e4e3d;
     border-radius: 10px;
     margin: 5px;
+}
+
+@font-face {
+    font-family: 'Burbank Big Rg Bk';
+    src: url('BurbankBigRegular-Black.woff2') format('woff2'),
+        url('BurbankBigRegular-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+.sac {
+    background-color: black;
+    margin: 0px;
+    width: 100px;
+    height: 50px;
 }
