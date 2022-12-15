@@ -1,31 +1,46 @@
 section {
-	font-family: Burbank Big Rg Bk, sans-serif;
+    font-family: Burbank Big Rg Bk, sans-serif;
 }
+
 html {
     text-transform: uppercase;
     scroll-behavior: smooth;
 }
+
 html::-webkit-scrollbar {
     display: none;
 }
+
 .button {
     margin: 0px 0px 10px 0px;
 }
+
 body {
     background: linear-gradient(40deg, #dfa0ff, #008cff);
     background-size: 500% 500%;
     animation: gradient 5s ease infinite;
     height: auto;
 }
+
 @keyframes gradient {
-    0% {background-position: 0% 50%}
-    50% {background-position: 100% 50%}
-    100% {background-position: 0% 50%}
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
 }
+
 img {
     border-radius: 10px;
     margin-bottom: 5px;
 }
+
 .map {
     background-color: #4e4e4e3d;
     border-radius: 10px;
@@ -34,8 +49,7 @@ img {
 
 @font-face {
     font-family: 'Burbank Big Rg Bk';
-    src: url('BurbankBigRegular-Black.woff2') format('woff2'),
-        url('BurbankBigRegular-Black.woff') format('woff');
+    src: url('BurbankBigRegular-Black.woff2') format('woff2'), url('BurbankBigRegular-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
